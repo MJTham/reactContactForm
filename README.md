@@ -25,7 +25,7 @@ This project was architected to demonstrate a **Headless / Serverless** approach
 ### 1. Decoupled Logic & UI
 The application adheres to a strict **Separation of Concerns**:
 * **UI Layer:** React components handle the view state and validation.
-* **Business Logic:** API integration is isolated, allowing the backend service to be swapped (e.g., to Sitecore Send or Azure Functions) without refactoring the frontend.
+* **Business Logic:** API integration is isolated, allowing the backend service to be swapped without refactoring the frontend.
 
 ### 2. Automated CI/CD Pipeline
 Deployment is fully automated using **GitHub Actions**.
